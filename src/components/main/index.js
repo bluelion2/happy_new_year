@@ -1,5 +1,5 @@
 import * as React from "react"
-import Hill from "../Hill"
+import Hill from "../hill"
 import Sun from "../sun"
 import TextArea from "../TextArea"
 import S from "./main.css"
