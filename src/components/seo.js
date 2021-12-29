@@ -64,24 +64,30 @@ function Seo({ description, lang, meta, title }) {
           content: 300,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata?.author || ``,
+          name: `twitter:url`,
+          content: site.siteMetadata?.siteUrl || "https://bit.ly/3EzJUo3",
         },
         {
-          name: `twitter:card`,
-          content: site.siteMetadata?.description || "",
+          name: `twitter:image`,
+          content: thumbnailImg,
         },
+
         {
           name: `twitter:title`,
           content: title,
         },
         {
+          name: `twitter:card`,
+          content: site.siteMetadata?.description || "",
+        },
+
+        {
           name: `twitter:description`,
           content: metaDescription,
         },
         {
-          name: `twitter:image`,
-          content: thumbnailImg,
+          name: `twitter:creator`,
+          content: site.siteMetadata?.author || ``,
         },
       ].concat(meta)}
     />
