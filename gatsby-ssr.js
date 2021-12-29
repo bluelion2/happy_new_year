@@ -8,7 +8,8 @@
 const React = require("react")
 
 exports.onRenderBody = () => {
-  if (window.console !== undefined) {
+  if (!window) return
+  if (window?.console !== undefined) {
     const cssRule = "font-size:40px;"
     const githubCss = "color:skyblue"
     setTimeout(() => {
