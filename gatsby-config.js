@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `새해 복 많이 받으세요`,
-    description: "",
+    description: "새해 복 많이 받으세요 여러분",
     author: `Kang seung hun`,
-    siteUrl: `https://naver.com`,
+    siteUrl: `bit.ly/3EzJUo3`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
