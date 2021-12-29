@@ -55,11 +55,11 @@ function Seo({ description, lang, meta, title }) {
         {
           property: `og:image`,
           content:
-            "https://user-images.githubusercontent.com/34129711/147652265-75789cbb-c9b6-4ad3-9e5d-c9a795201404.jpg",
+            "https://user-images.githubusercontent.com/34129711/147652900-6a8dd56b-f912-4551-a9a5-afdbf799e9d0.png",
         },
         {
           property: `og:image:width`,
-          content: 400,
+          content: 300,
         },
         {
           name: `twitter:card`,
