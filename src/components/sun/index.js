@@ -18,7 +18,7 @@ const StyledSun = styled.div`
   width: 60vw;
   height: 60vw;
   border-radius: 50%;
-  background-color: rgba(255, 80, 30, 0.9);
+  background: linear-gradient(to top, rgba(255, 80, 30, 0.9) 40%, yellow);
   animation: rise 2s ease-in-out;
 
   @media screen and (min-width: 768px) {
