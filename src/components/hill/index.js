@@ -1,13 +1,13 @@
 import React from "react"
 import styled from "styled-components"
 
-const Mountain = () => {
-  return <StyledMountain />
+const Hill = () => {
+  return <StyledHill />
 }
 
-export default Mountain
+export default Hill
 
-const StyledMountain = styled.div`
+const StyledHill = styled.div`
   display: flex;
   position: absolute;
   bottom: 0;
