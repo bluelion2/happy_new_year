@@ -5,7 +5,7 @@ const Hill = () => {
   const onClick = () => {
     const url = "bit.ly/3EzJUo3"
     navigator.clipboard.writeText(url).then(() => {
-      alert("링크가 복사되었습니다. 다른 분들께 인사하실 수 있어요.")
+      alert("링크가 복사되었습니다. \n다른 분들에게도 인사해요.")
     })
   }
 

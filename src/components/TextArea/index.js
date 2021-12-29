@@ -20,8 +20,8 @@ const StyledTextArea = styled.section`
   flex-direction: column;
   margin-top: 3vh;
   h1 {
-    font-family: "궁서체";
     font-size: 48px;
+    font-family: "궁서체", "ChosunGs";
   }
 
   h2 {
