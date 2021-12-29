@@ -53,6 +53,15 @@ function Seo({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content:
+            "https://user-images.githubusercontent.com/34129711/147652265-75789cbb-c9b6-4ad3-9e5d-c9a795201404.jpg",
+        },
+        {
+          property: `og:image:width`,
+          content: 400,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
