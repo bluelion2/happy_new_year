@@ -15,6 +15,7 @@
   flex-direction: column;
   margin-top: 3vh;
   animation: visibleText 3s ease-in-out;
+  z-index: 5;
 }
 
 .main > section > h1 {
