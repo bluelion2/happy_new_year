@@ -4,7 +4,8 @@ import styled from "styled-components"
 const TextArea = ({ text }) => {
   return (
     <StyledTextArea>
-      <h2>{new Date().getFullYear()}</h2>
+      <h2>2022</h2>
+      {/* <h2>{new Date().getFullYear()}</h2> */}
       <h1>근하신년</h1>
       <p>{text}</p>
     </StyledTextArea>

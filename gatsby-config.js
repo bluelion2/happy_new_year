@@ -21,7 +21,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `새해 복 많이 받으세요`,
-        short_name: `starter`,
+        short_name: `Happy new Year`,
         start_url: `/`,
         background_color: `#663399`,
         display: `minimal-ui`,
