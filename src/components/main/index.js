@@ -1,7 +1,7 @@
 import * as React from "react"
-import Hill from "../components/Hill"
-import Sun from "../components/sun"
-import TextArea from "../components/TextArea"
+import Hill from "../Hill"
+import Sun from "../sun"
+import TextArea from "../TextArea"
 import S from "./main.css"
 const Main = () => {
   return (
