@@ -13,4 +13,9 @@ const StyledSun = styled.div`
   height: 60vw;
   border-radius: 50%;
   background-color: rgba(255, 80, 30, 0.9);
+
+  @media screen and (min-width: 768px) {
+    width: 300px;
+    height: 300px;
+  }
 `
