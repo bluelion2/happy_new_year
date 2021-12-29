@@ -16,7 +16,7 @@ const Hill = () => {
   )
 }
 
-export default Hill
+export default React.memo(Hill)
 
 const StyledHill = styled.div`
   display: flex;
