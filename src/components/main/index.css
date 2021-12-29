@@ -21,15 +21,18 @@
 .main > section > h1 {
   font-size: 48px;
   font-family: "궁서체", "ChosunGs";
+  font-weight: 700;
 }
 
 .main > section > h2 {
   font-size: 36px;
   font-family: "궁서체", "ChosunGs";
+  font-weight: 700;
 }
 
 .main > section > p {
   font-size: 18px;
+  font-weight: 500;
 }
 
 @keyframes visibleText {
