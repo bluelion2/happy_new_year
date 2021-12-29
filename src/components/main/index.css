@@ -14,17 +14,7 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 3vh;
-
-  animation: visible 3s ease-in-out;
-
-  @keyframes visible {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
+  animation: visibleText 3s ease-in-out;
 }
 
 .main > section > h1 {
@@ -39,4 +29,13 @@
 
 .main > section > p {
   font-size: 18px;
+}
+
+@keyframes visibleText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
