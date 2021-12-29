@@ -2,13 +2,26 @@ import React from "react"
 import styled from "styled-components"
 
 const Hill = () => {
-  return <StyledHill />
+  const onClick = () => {
+    const url = "bit.ly/3EzJUo3"
+    navigator.clipboard.writeText(url).then(() => {
+      alert("복사되었습니다.")
+    })
+  }
+
+  return (
+    <StyledHill>
+      <button onClick={onClick}>복사하기</button>
+    </StyledHill>
+  )
 }
 
 export default Hill
 
 const StyledHill = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -18,4 +31,13 @@ const StyledHill = styled.div`
   border-top-left-radius: 45%;
   border-top-right-radius: 45%;
   background: lightgray;
+  button {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    color: black;
+  }
 `
