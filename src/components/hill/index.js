@@ -5,13 +5,13 @@ const Hill = () => {
   const onClick = () => {
     const url = "bit.ly/3EzJUo3"
     navigator.clipboard.writeText(url).then(() => {
-      alert("복사되었습니다.")
+      alert("링크가 복사되었습니다. 다른 분들께 인사하실 수 있어요.")
     })
   }
 
   return (
     <StyledHill>
-      <button onClick={onClick}>복사하기</button>
+      <button onClick={onClick}>전달하기</button>
     </StyledHill>
   )
 }
