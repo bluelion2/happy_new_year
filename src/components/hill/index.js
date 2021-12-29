@@ -36,8 +36,10 @@ const StyledHill = styled.div`
     height: 100%;
     padding: 0;
     margin: 0;
+    padding-top: 20px;
     border: none;
     background-color: transparent;
-    color: black;
+    font-weight: 700;
+    color: #666;
   }
 `
