@@ -3,7 +3,7 @@ module.exports = {
     title: `새해 복 많이 받으세요`,
     description: "새해 복 많이 받으세요 여러분",
     author: `Kang seung hun`,
-    siteUrl: `bit.ly/3EzJUo3`,
+    siteUrl: `https://bit.ly/3EzJUo3`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

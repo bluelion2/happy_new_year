@@ -69,8 +69,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: site.siteMetadata?.description || 
-          '',
+          content: site.siteMetadata?.description || "",
         },
         {
           name: `twitter:title`,
