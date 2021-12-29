@@ -10,8 +10,8 @@ const Main = () => {
 
   React.useEffect(() => {
     const i = Math.floor(Math.random() * 10)
-    setText(guide[i])
     setVisible(true)
+    setText(guide[i])
   }, [])
 
   return (
