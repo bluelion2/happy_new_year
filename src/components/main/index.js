@@ -16,13 +16,9 @@ const Main = () => {
 
   return (
     <StyledMain>
-      {visible && (
-        <>
-          <Sun />
-          <TextArea text={text} />
-          <Hill />
-        </>
-      )}
+      <Sun />
+      {visible && <TextArea text={text} />}
+      <Hill />
     </StyledMain>
   )
 }
