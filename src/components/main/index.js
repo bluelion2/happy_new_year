@@ -6,23 +6,17 @@ import styled from "styled-components"
 
 const Main = () => {
   const [text, setText] = React.useState("")
-  const [visible, setVisible] = React.useState(false)
 
   React.useEffect(() => {
     const i = Math.floor(Math.random() * 10)
-    setVisible(true)
     setText(guide[i])
   }, [])
 
   return (
     <StyledMain>
-      {visible && (
-        <>
-          <Sun />
-          <TextArea text={text} />
-          <Hill />
-        </>
-      )}
+      <Sun />
+      <TextArea text={text} />
+      <Hill />
     </StyledMain>
   )
 }
