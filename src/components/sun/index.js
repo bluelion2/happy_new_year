@@ -1,34 +1,8 @@
 import React from "react"
-import styled from "styled-components"
+import "./index.css"
 
 const Sun = () => {
-  return <StyledSun />
+  return <div className="sun" />
 }
 
 export default React.memo(Sun)
-
-const StyledSun = styled.div`
-  display: flex;
-  position: absolute;
-  top: 20px;
-  width: 60vw;
-  height: 60vw;
-  border-radius: 50%;
-  background: linear-gradient(to top, rgba(255, 80, 30, 0.9) 40%, yellow);
-  animation: rise 2s ease-in-out;
-
-  @media screen and (min-width: 768px) {
-    width: 300px;
-    height: 300px;
-  }
-
-  @keyframes rise {
-    0% {
-      top: 100px;
-    }
-
-    100% {
-      top: 20px;
-    }
-  }
-`

@@ -1,0 +1,42 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  height: 100vh;
+  padding-top: 5vh;
+}
+
+.main > section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3vh;
+
+  animation: visible 3s ease-in-out;
+
+  @keyframes visible {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.main > section > h1 {
+  font-size: 48px;
+  font-family: "궁서체", "ChosunGs";
+}
+
+.main > section > h2 {
+  font-size: 36px;
+  font-family: "궁서체", "ChosunGs";
+}
+
+.main > section > p {
+  font-size: 18px;
+}

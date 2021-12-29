@@ -1,5 +1,5 @@
 import React from "react"
-import styled from "styled-components"
+import "./index.css"
 
 const Hill = () => {
   const onClick = () => {
@@ -10,36 +10,10 @@ const Hill = () => {
   }
 
   return (
-    <StyledHill>
+    <footer className="hill">
       <button onClick={onClick}>전달하기</button>
-    </StyledHill>
+    </footer>
   )
 }
 
 export default React.memo(Hill)
-
-const StyledHill = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-  height: 15vh;
-  border-top-left-radius: 45%;
-  border-top-right-radius: 45%;
-  background: lightgray;
-  button {
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-    padding-top: 20px;
-    border: none;
-    background-color: transparent;
-    font-weight: 700;
-    color: #666;
-  }
-`
