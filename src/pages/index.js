@@ -6,7 +6,7 @@ import Main from "./main"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="hello world" />
+    <Seo title="happy new Year!" />
     <Main />
   </Layout>
 )
