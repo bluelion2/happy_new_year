@@ -7,10 +7,11 @@ const Text = () => {
     const i = Math.floor(Math.random() * 10)
     setText(guide[i])
   }, [])
-
+  console.log("new Date().getFullYear()", new Date().getFullYear())
   return (
     <section>
-      <h2>{new Date().getFullYear()}년</h2>
+      <h2>2022년</h2>
+      {/* <h2>{new Date().getFullYear()}년</h2> */}
       <h1>근하신년</h1>
       <p>{text}</p>
     </section>
