@@ -15,7 +15,9 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 3vh;
-  animation: visibleText 3s ease-in-out;
+  animation: visibleText 3.5s ease-in-out;
+  animation-delay: 1s;
+  opacity: 0;
   z-index: 5;
 }
 
