@@ -1,21 +1,40 @@
-.sun {
+.sun-wrap {
   display: flex;
   position: absolute;
   top: 120px;
   opacity: 0.1;
+  animation: rise 2s ease-in-out forwards;
+  animation-delay: 1.5s;
+}
+
+.sun {
   width: 60vw;
   height: 60vw;
   max-width: 700px;
   max-height: 700px;
   border-radius: 50%;
   background: linear-gradient(to top, rgba(255, 80, 30, 0.9) 40%, yellow);
-  animation: rise 2s ease-in-out forwards;
-  animation-delay: 1.5s;
-
   @media screen and (min-width: 768px) {
     width: 300px;
     height: 300px;
   }
+}
+
+.sun-wrap .cloud {
+  position: absolute;
+  bottom: -40px;
+  width: 150px;
+  animation: leftDisapear 2s ease-in-out forwards;
+  animation-delay: 3.5s;
+}
+
+.sun-wrap .white-cloud {
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+  width: 150px;
+  animation: rightDisapear 2s ease-in-out forwards;
+  animation-delay: 3.5s;
 }
 
 @keyframes rise {
@@ -27,5 +46,23 @@
   100% {
     top: 20px;
     opacity: 1;
+  }
+}
+
+@keyframes leftDisapear {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes rightDisapear {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -100%;
   }
 }
