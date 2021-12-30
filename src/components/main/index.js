@@ -10,7 +10,7 @@ const Main = () => {
       <Sun />
       <Text />
       <Hill />
-      <Wind />
+      {/* <Wind /> */}
     </main>
   )
 }
