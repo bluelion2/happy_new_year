@@ -80,9 +80,11 @@
 @keyframes leftToRight {
   0% {
     left: 0;
+    opacity: 0.1;
   }
 
   100% {
     left: 110%;
+    opacity: 1;
   }
 }
