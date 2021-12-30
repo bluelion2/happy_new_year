@@ -72,6 +72,7 @@ const Hill = () => {
           <input
             type="text"
             value={name}
+            maxLength={10}
             onChange={e => setName(e.target.value)}
             placeholder="이름을 입력해주세요."
           />
