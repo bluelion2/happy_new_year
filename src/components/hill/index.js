@@ -14,7 +14,7 @@ const Hill = () => {
 
   return (
     <footer className="hill">
-      <button onClick={onClick}>전달하기</button>
+      <button onClick={onClick}>공유하기</button>
     </footer>
   )
 }

@@ -1,14 +1,16 @@
 .sun {
   display: flex;
   position: absolute;
-  top: 20px;
+  top: 120px;
+  opacity: 0.1;
   width: 60vw;
   height: 60vw;
   max-width: 700px;
   max-height: 700px;
   border-radius: 50%;
   background: linear-gradient(to top, rgba(255, 80, 30, 0.9) 40%, yellow);
-  animation: rise 2s ease-in-out;
+  animation: rise 2s ease-in-out forwards;
+  animation-delay: 1.5s;
 
   @media screen and (min-width: 768px) {
     width: 300px;
@@ -18,10 +20,12 @@
 
 @keyframes rise {
   0% {
-    top: 100px;
+    top: 120px;
+    opacity: 0.1;
   }
 
   100% {
-    top: 20px;
+    top: 30px;
+    opacity: 1;
   }
 }

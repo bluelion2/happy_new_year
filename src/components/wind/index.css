@@ -1,0 +1,88 @@
+.wind {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  height: 40px;
+  z-index: 4;
+}
+
+.wind .wind-1 {
+  width: 50px;
+  position: absolute;
+  animation: leftToRight 2.25s ease-in-out forwards;
+  background: transparent;
+  z-index: 6;
+}
+
+.wind .wind-2 {
+  width: 70px;
+  position: absolute;
+  top: 15px;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+.wind .wind-3 {
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+
+.wind .wind-4 {
+  width: 150px;
+  margin-left: -50px;
+  position: absolute;
+  top: 10px;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+
+.wind .cloud-1 {
+  width: 80px;
+  margin-left: 120px;
+  position: absolute;
+  top: 10px;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+
+.wind .cloud-2 {
+  width: 80px;
+  margin-left: 100px;
+  position: absolute;
+  top: -10px;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+
+.wind .cloud-3 {
+  width: 120px;
+  margin-left: 140px;
+  position: absolute;
+  top: 15px;
+  z-index: 6;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+
+.wind .white-cloud {
+  width: 100px;
+  margin-left: 170px;
+  position: absolute;
+  top: 15px;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+
+.wind .white-cloud-2 {
+  width: 100px;
+  margin-left: 90px;
+  position: absolute;
+  top: 35px;
+  animation: leftToRight 2.25s ease-in-out forwards;
+}
+
+@keyframes leftToRight {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: 110%;
+  }
+}
