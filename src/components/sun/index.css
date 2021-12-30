@@ -14,7 +14,7 @@
   max-width: 700px;
   max-height: 700px;
   border-radius: 50%;
-  background: linear-gradient(to top, rgba(255, 80, 30, 0.9) 40%, yellow);
+  background: linear-gradient(to top, rgba(255, 80, 30, 0.9) 60%, yellow);
 }
 
 @media screen and (min-width: 768px) {
