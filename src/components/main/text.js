@@ -6,7 +6,6 @@ const Text = () => {
   React.useEffect(() => {
     const i = Math.floor(Math.random() * 10)
 
-    console.log("window", window.location.hash)
     const hash = window.location.hash || undefined
     if (hash) {
       const decode = hash.slice(1, hash.length)
