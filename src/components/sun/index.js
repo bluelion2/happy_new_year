@@ -6,19 +6,23 @@ const Sun = () => {
   return (
     <div className="sun-wrap">
       <div className="sun" />
-      <StaticImage className="cloud" src="../../images/cloud.png" alt="구름" />
       <StaticImage
-        className="cloud-1"
+        className="black-cloud cloud"
         src="../../images/cloud.png"
         alt="구름"
       />
       <StaticImage
-        className="white-cloud"
+        className="black-cloud-1 cloud"
+        src="../../images/cloud.png"
+        alt="구름"
+      />
+      <StaticImage
+        className="white-cloud cloud"
         src="../../images/white-cloud.png"
         alt="구름"
       />
       <StaticImage
-        className="white-cloud-1"
+        className="white-cloud-1 cloud"
         src="../../images/white-cloud.png"
         alt="구름"
       />

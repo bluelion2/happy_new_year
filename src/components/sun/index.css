@@ -15,7 +15,10 @@
   max-height: 700px;
   border-radius: 50%;
   background: linear-gradient(to top, rgba(255, 80, 30, 0.9) 40%, yellow);
-  @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
+  .sun {
     width: 300px;
     height: 300px;
   }
@@ -23,37 +26,30 @@
 
 .sun-wrap .cloud {
   position: absolute;
-  bottom: -40px;
   width: 150px;
-  animation: leftDisapear 2s ease-in-out forwards;
-  animation-delay: 3.5s;
 }
 
-.sun-wrap .cloud-1 {
-  position: absolute;
+.sun-wrap .black-cloud {
+  bottom: -40px;
+  animation: leftDisapear 2s ease-in-out 3.5s forwards;
+}
+
+.sun-wrap .black-cloud-1 {
   bottom: 0px;
   left: -20px;
-  width: 150px;
-  animation: leftDisapear1 1.2s ease-in-out forwards;
-  animation-delay: 3.5s;
+  animation: leftDisapear1 1.2s ease-in-out 3.5s forwards;
 }
 
 .sun-wrap .white-cloud {
-  position: absolute;
   bottom: -40px;
   right: 0;
-  width: 150px;
-  animation: rightDisapear 2s ease-in-out forwards;
-  animation-delay: 3.5s;
+  animation: rightDisapear 2s ease-in-out 3.5s forwards;
 }
 
 .sun-wrap .white-cloud-1 {
-  position: absolute;
   bottom: -60px;
   right: -20px;
-  width: 150px;
-  animation: rightDisapear1 1.2s ease-in forwards;
-  animation-delay: 3.5s;
+  animation: rightDisapear1 1.2s ease-in 3.5s forwards;
 }
 
 @keyframes rise {
