@@ -18,7 +18,8 @@
     "react": "^17.0.1",
     "react-device-detect": "^2.1.2",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-modal": "^3.14.4"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
@@ -31,7 +32,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
-    "start": "gatsby develop",
+    "start": "gatsby develop --host",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"

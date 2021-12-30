@@ -55,13 +55,13 @@
 @keyframes rise {
   0% {
     visibility: hidden;
-    top: 120px;
+    top: 25vh;
     opacity: 0.1;
   }
 
   100% {
     visibility: visible;
-    top: 20px;
+    top: 4vh;
     opacity: 1;
   }
 }

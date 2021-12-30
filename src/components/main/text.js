@@ -5,9 +5,18 @@ const Text = () => {
 
   React.useEffect(() => {
     const i = Math.floor(Math.random() * 10)
-    setText(guide[i])
+
+    console.log("window", window.location.hash)
+    const hash = window.location.hash || undefined
+    if (hash) {
+      const decode = hash.slice(1, hash.length)
+      const decodeName = decodeURIComponent(decode)
+      setText(`${decodeName}님. ${guide[0]}`)
+    } else {
+      setText(guide[i])
+    }
   }, [])
-  console.log("new Date().getFullYear()", new Date().getFullYear())
+
   return (
     <section>
       <h2>2022년</h2>
