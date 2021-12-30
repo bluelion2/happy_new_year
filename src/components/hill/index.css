@@ -11,6 +11,10 @@
   border-top-left-radius: 45%;
   border-top-right-radius: 45%;
   background: lightgray;
+
+  opacity: 0;
+  animation: visibleContainer 2s ease-in-out forwards;
+  animation-delay: 1s;
 }
 
 .hill > button {
@@ -66,4 +70,13 @@
 .modal div button:last-of-type {
   background-color: #00abff;
   color: white;
+}
+
+@keyframes visibleContainer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
